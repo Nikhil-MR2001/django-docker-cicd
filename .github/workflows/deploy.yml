@@ -23,4 +23,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/django-app:latest
+          tags: ${{ secrets.DOCKERHUB_USRNAME }}/django-app:latest
